@@ -1,16 +1,16 @@
 import {Navbar, Nav, Container, NavDropdown} from "react-bootstrap";
-import Cardwidget from "../CardWidget";
+import Cardwidget from "../Containers/CardWidget/CardWidget";
 import Logo from "../Logo/Logo";
 
 const NavBar = () => {
   return (
     <div className="dNav" >
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Container>
-  {/*<Navbar.Brand href="#home">Cerveceria Artesanal</Navbar.Brand>*/}
+  <Container className="w-100">
+  {/* <Navbar.Brand href="#home">Cerveceria Artesanal</Navbar.Brand> */}
   <Logo />
   <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-  <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+  <Navbar.Collapse id="responsive-navbar-nav" className="d-flex justify-content-end">
     <Nav>
       <Nav.Link href="#features">Inicio</Nav.Link>
       <NavDropdown title="Productos" id="collasible-nav-dropdown">

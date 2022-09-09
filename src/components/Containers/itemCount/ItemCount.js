@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Button from 'react-bootstrap/Button';
-import Image from '../../../Images/img_carrito/CERVEZA.jpg';
+import Image from './CERVEZA.jpg';
+
 const ItemCount = ({initial, stock, onAdd}) =>  {
   const [count, setCount] = useState(initial);
 

@@ -1,4 +1,5 @@
-import Imagen from "../Images/shopping-cart.png";
+import Imagen from "./shopping-cart.png";
+
 
 
 const Cardwidget = () => {
